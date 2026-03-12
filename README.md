@@ -100,6 +100,19 @@ Build output:
 
 The build script copies your local `.env` next to the executable. The packaged app loads `.env` from the EXE directory first.
 
+## Download the latest CI build
+
+Every push to `main` also builds a clean Windows artifact in GitHub Actions.
+
+Open:
+
+- `https://github.com/Chumbayoumba/deepgram-push-to-talk-windows/actions`
+
+Artifact contents:
+
+- `deepgram-stt.exe`
+- `.env.example`
+
 ## How it works
 
 1. Press and hold `Right Shift`
