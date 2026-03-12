@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepgram-stt-windows"
+version = "0.1.0"
+description = "Windows push-to-talk STT app for Russian dictation with Deepgram."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pynput>=1.7.7",
+    "pyperclip>=1.9.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "sounddevice>=0.5.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+]
+build = [
+    "pyinstaller>=6.14.2",
+]
+
+[project.scripts]
+deepgram-stt = "deepgram_stt.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
