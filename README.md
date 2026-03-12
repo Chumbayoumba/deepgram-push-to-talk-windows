@@ -12,6 +12,8 @@ Reliable push-to-talk speech-to-text for Windows using Deepgram.
 
 Hold `Right Shift` to record, release to transcribe, and insert the recognized text into the currently focused app.
 
+**Keywords:** Deepgram, speech-to-text, STT, dictation, Windows, push-to-talk, Russian, voice typing.
+
 [Русская версия](README.ru.md)
 
 ## Features
