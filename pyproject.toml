@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "deepgram-stt-windows"
 version = "0.1.0"
 description = "Windows push-to-talk STT app for Russian dictation with Deepgram."
+keywords = ["deepgram", "stt", "speech-to-text", "dictation", "windows", "push-to-talk", "russian"]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -26,6 +27,10 @@ build = [
 
 [project.scripts]
 deepgram-stt = "deepgram_stt.main:main"
+
+[project.urls]
+Repository = "https://github.com/Chumbayoumba/deepgram-push-to-talk-windows"
+Issues = "https://github.com/Chumbayoumba/deepgram-push-to-talk-windows/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

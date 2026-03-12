@@ -2,6 +2,11 @@
 
 [![CI](https://github.com/Chumbayoumba/deepgram-push-to-talk-windows/actions/workflows/ci.yml/badge.svg)](https://github.com/Chumbayoumba/deepgram-push-to-talk-windows/actions/workflows/ci.yml)
 [![GitHub stars](https://img.shields.io/github/stars/Chumbayoumba/deepgram-push-to-talk-windows?style=social)](https://github.com/Chumbayoumba/deepgram-push-to-talk-windows/stargazers)
+![Windows](https://img.shields.io/badge/platform-Windows-0078D6)
+![Python](https://img.shields.io/badge/python-3.11%2B-3776AB)
+![Deepgram](https://img.shields.io/badge/STT-Deepgram-13EF93)
+![Language](https://img.shields.io/badge/language-Russian-DA291C)
+![Build](https://img.shields.io/badge/distribution-Standalone%20EXE-6f42c1)
 
 Reliable push-to-talk speech-to-text for Windows using Deepgram.
 
